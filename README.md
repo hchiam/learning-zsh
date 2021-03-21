@@ -1,43 +1,45 @@
-# Learning template
+# Learning Zsh
 
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
-(To create a convenience script repo, use this template instead: https://github.com/hchiam/convenience)
+Slightly better [`bash`](https://github.com/hchiam/learning-bash-scripts). 
 
-(To create a website fast, use a code generator like [`create-next-app`](https://github.com/hchiam/learning-nextjs), [`sapper`](https://github.com/hchiam/learning-sapper), a [svelte template](https://github.com/sveltejs/template), or [`yo`](https://yeoman.io/generators) )
+Switching from bash to zsh on Mac: 
 
-<!-- Add reference link(s) here -->
-
-## From scratch
-
-Using [`yarn`](https://github.com/hchiam/learning-yarn):
+https://support.apple.com/en-us/HT208050 
 
 ```bash
-yarn add 
+`chsh -s /bin/zsh`
 ```
 
-Or with `npm`:
+`~/.zshenv` is zsh's version of bash's `~/.bash_profile`: 
+
+https://stackoverflow.com/a/60982415 
 
 ```bash
-npm install 
+echo source ~/.bash_profile > ~/.zshenv && source ~/.zshenv
 ```
 
-And then:
+Setting up zsh to use fish autosuggestion + syntax highlighting: 
 
-```bash
+https://github.com/zellwk/dotfiles/blob/master/install-zsh.sh 
+
+5 startup files that zsh reads commands from: 
+
+http://zsh.sourceforge.net/Intro/intro_3.html 
 
 ```
-
-## Starting by testing out this repo <!-- Replace "template"s and "# and then ..."s in this section -->
-
-Using [`yarn`](https://github.com/hchiam/learning-yarn): (triple-click to select all)
-
-```bash
-git clone https://github.com/hchiam/learning-template.git && cd learning-template && yarn; # and then ...
+$ZDOTDIR/.zshenv
+$ZDOTDIR/.zprofile
+$ZDOTDIR/.zshrc
+$ZDOTDIR/.zlogin
+$ZDOTDIR/.zlogout
 ```
 
-Or with `npm`: (triple-click to select all)
+The difference between bash, zsh, and fish, and also which to use:  
 
-```bash
-git clone https://github.com/hchiam/learning-template.git && cd learning-template && npm install; # and then ...
-```
+https://zellwk.com/blog/bash-zsh-fish 
+
+Mac switched from bash to zsh: 
+
+https://www.theverge.com/2019/6/4/18651872/apple-macos-catalina-zsh-bash-shell-replacement-features
