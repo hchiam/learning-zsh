@@ -2,7 +2,7 @@
 
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
-Slightly better [`bash`](https://github.com/hchiam/learning-bash-scripts).
+Slightly better [`bash`](https://github.com/hchiam/learning-bash-scripts), and apparently [`bash` commands are mostly compatible with `zsh`](https://medium.com/@harrison.miller13_28580/bash-vs-z-shell-a-tale-of-two-command-line-shells-c65bb66e4658), although [there are differences in interactive use, scripting (like indices), and some nice `zsh` features](https://apple.stackexchange.com/questions/361870/what-are-the-practical-differences-between-bash-and-zsh).
 
 Switching from bash to zsh on Mac:
 
