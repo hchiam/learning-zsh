@@ -12,6 +12,8 @@ https://support.apple.com/en-us/HT208050
 `chsh -s /bin/zsh`
 ```
 
+(If you need to go back to defaulting to bash, then run `chsh -s /bin/bash`)
+
 `~/.zshenv` is zsh's version of bash's `~/.bash_profile`:
 
 https://stackoverflow.com/a/60982415
